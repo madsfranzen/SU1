@@ -22,11 +22,11 @@ public class Konto {
             saldo -= beløb;
         }
     }
-
     public void lukKonto(){
         status = "closed";
     }
 
+    //region ## SETTERS AND GETTERS ##
     public int getNr() {
         return nr;
     }
@@ -58,4 +58,5 @@ public class Konto {
     public void setStatus(String status) {
         this.status = status;
     }
+    //endregion
 }
